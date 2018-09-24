@@ -87,6 +87,7 @@ a img {
   .sidenav a {font-size: 18px;}
 }
 
+
 /* BUTTONS */
 button {
 position: relative;
@@ -137,7 +138,11 @@ button:focus {
     background-color: rgba(255,255,255,0.8);
     overflow: auto;
 }
-
+@media screen and (max-width: 600px) {
+    .modal-content {
+        width: 100%;
+    }
+}
 /* The Close Button */
 .close {
     color: #aaaaaa;
